@@ -8,7 +8,7 @@ If you want to set up a one-to-one relationship between two models, you'll need 
 The distinction is in where you place the foreign key (it goes on the table for the class declaring the belongs_to association), but you should give some thought to the actual meaning of the data as well. The has_one relationship says that one of something is yours - that is, that something points back to you. For example, it makes more sense to say that a supplier owns an account than that an account owns a supplier. This suggests that the correct relationships are like this:
 
 取决于 foreign_key 放在哪个model里
-
+完全不明白在讲什么
 ~~~
 
 ```rb
