@@ -13,5 +13,13 @@ class Book < ApplicationRecord
 end
 ```
 
+## simple:
+```rb
+belongs_to  # 一对多，与 has_many,has_one 套用        
+has_one      # 一对一          
+has_many   # 一对多的另外一方            
+has_and_belongs_to_many # 多对多
+```
+
 ## resources:
 + https://guides.rubyonrails.org/association_basics.html
