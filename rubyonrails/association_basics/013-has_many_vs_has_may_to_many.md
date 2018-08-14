@@ -6,6 +6,12 @@ Rails offers two different ways to declare a many-to-many relationship between m
 ![](https://ws4.sinaimg.cn/large/0069RVTdgy1fu763vswo7j30zo0xu446.jpg)
 
 
+## 适合的场景：
+~~~
+多对多的情况
+一定会有中间表，而且，只会有中间表，并不会产生多余的字估
+~~~
+
 
 ## tips:
 ~~~

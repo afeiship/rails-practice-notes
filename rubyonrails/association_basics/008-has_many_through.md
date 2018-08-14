@@ -22,6 +22,14 @@ class Patient < ApplicationRecord
 end
 ```
 
+## 解释
+~~~
+这里的情况其实是，正好 appiontments 这个与 phy pat 都是一对多的关系
+phy 和 pat 正好也是多对多的关系
+
+正好借一张表，作为中间表的情况
+~~~
+
 ![](https://ws1.sinaimg.cn/large/0069RVTdgy1fu74om022fj30i90lmace.jpg)
 
 

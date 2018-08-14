@@ -11,6 +11,13 @@ a model can belong to more than one other model, on a single association.
 这种本质上是创建了一个 imageable 的中间表
 -->
 
+## 注意
+~~~
+这里的的多态关联，适合的情况是： 关联表的数量并不多，而且可预见的。
+否则这个中间表 imageable 就会很大，后面查询及各种操作会比较麻烦。
+
+如果是标签，可以考虑这个场景
+~~~
 
 ```rb
 class Picture < ApplicationRecord
